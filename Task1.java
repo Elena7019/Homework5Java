@@ -36,7 +36,7 @@ public class Task1 {
     }
 
     public static Map<String, List<String>> add(Map<String, List<String>> phonBook) {
-        System.out.println("Если хотите выйте хотите перестать вводить номера введите 'stop'");
+        System.out.println("Если больше нет номеров, введите 'stop' и перейдите к следующей команде");
         System.out.println("Введите имя: ");
         String name = scanner();
         List<String> number = new ArrayList<>();
